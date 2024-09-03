@@ -1,0 +1,13 @@
+.container{
+    border: 5px solid rgb(17, 211, 236);
+    width: 60%;
+    margin: 20px auto;
+    font-size: 20pt;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}

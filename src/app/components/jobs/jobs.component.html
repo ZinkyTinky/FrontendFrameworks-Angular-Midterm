@@ -1,6 +1,8 @@
-
-<h1>Work History</h1>
-<ul>
+<div class="container">
+  <h1>Work History</h1>
+  <ul>
     <li *ngFor="let job of jobsList">
-        <a [routerLink]="['/job-details', job.id]">{{ job.employer }}</a>
-</ul>
+      <a [routerLink]="['/job-details', job.id]">{{ job.employer }}</a>
+    </li>
+  </ul>
+</div>
