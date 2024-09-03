@@ -1,4 +1,5 @@
 import { Component, OnInit} from '@angular/core';
+import { Job } from 'src/app/classes/job';
 import { JobServiceService } from 'src/app/services/job-service.service';
 
 @Component({
@@ -8,7 +9,7 @@ import { JobServiceService } from 'src/app/services/job-service.service';
 })
 export class JobsComponent implements OnInit {
 
-  jobsList: any = [];
+  jobsList!: Job[];
 
   constructor(private jobService: JobServiceService) { }
 
