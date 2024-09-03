@@ -1,1 +1,5 @@
-<p>jobs works!</p>
+<h1>Work History</h1>
+<ul>
+    <li *ngFor="let job of jobsList">
+        <a [routerLink]="['/jobs', job.id]">{{ job.company }}</a>
+</ul>
