@@ -1,7 +1,8 @@
 #navBar{
-    background-color: #d62828;
+    background-color: #ac0b0b;
     display: flex;
     justify-content: space-evenly;
     height: 40px;
     align-items: center;
+    color: white;
 }

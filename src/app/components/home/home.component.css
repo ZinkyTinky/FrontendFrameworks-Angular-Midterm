@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#heading{
+    text-align: center;
+}
+
+#image{
+    width: 40%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    border: 5px solid rgb(17, 211, 236);
+    width: 60%;
+    margin: 20px auto;
+    font-size: 20pt;
+    border-radius: 10px;
+}
