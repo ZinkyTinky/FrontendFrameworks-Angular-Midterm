@@ -10,7 +10,7 @@ export class JobServiceService {
     {
       id: 1,
       title: 'Hockey coach',
-      description: 'Teach kids how to play hockey',
+      description: 'Tought kids how to play hockey',
       duration: '3 years',
       employer: 'The Hockey farm',
     },
