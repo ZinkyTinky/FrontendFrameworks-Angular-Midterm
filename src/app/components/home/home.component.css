@@ -15,7 +15,8 @@
 
 p {
     text-align: center;
-    border: 5px solid rgb(17, 211, 236);
+    border: 5px solid #ac0b0b;
+    padding: 5px;
     width: 60%;
     margin: 20px auto;
     font-size: 20pt;

@@ -1,8 +1,8 @@
 #navBar{
     background-color: #ac0b0b;
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
     height: 40px;
-    align-items: center;
+    /* align-items: center; */
     color: white;
 }

@@ -9,6 +9,13 @@ import { JobsComponent } from './components/jobs/jobs.component';
 import { JobDetailsComponent } from './components/job-details/job-details.component';
 import { NavComponent } from './components/nav/nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import {MatCardModule} from '@angular/material/card';
+import { RouterModule } from '@angular/router';
+import { MatChipsModule } from '@angular/material/chips';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -22,7 +29,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSidenavModule,
+    MatListModule,
+    MatCardModule,
+    RouterModule,
+    MatChipsModule,
+    MatTooltipModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

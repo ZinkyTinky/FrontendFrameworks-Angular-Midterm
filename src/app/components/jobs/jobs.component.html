@@ -1,8 +1,12 @@
-<div class="container">
-  <h1>Work History</h1>
-  <ul>
-    <li *ngFor="let job of jobsList">
-      <a [routerLink]="['/job-details', job.id]">{{ job.employer }}</a>
-    </li>
-  </ul>
+<div class="body">
+  <div class="container">
+    <h1>Work History</h1>
+    <ul>
+      <li *ngFor="let job of jobsList" class="jobDesc">
+        <h1>{{job.title}}</h1>
+        <h2>{{job.employer}} ({{job.duration}})</h2>
+        <p>{{job.description}}</p>
+      </li>
+    </ul>
+  </div>
 </div>

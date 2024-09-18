@@ -1,4 +1,17 @@
-<div class="container">
-    <app-nav></app-nav>
-    <router-outlet></router-outlet>
+<div id="sideBar">
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav mode="side" opened>
+      <mat-nav-list>
+        <h1>Menu</h1>
+        <a mat-list-item routerLink="/home">Home</a>
+        <a mat-list-item routerLink="/about">About</a>
+        <a mat-list-item routerLink="/jobs">Jobs</a>
+      </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <app-nav></app-nav>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
 </div>
